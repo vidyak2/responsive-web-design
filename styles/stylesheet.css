@@ -1,0 +1,35 @@
+/*Body styles*/
+body{
+    font-family: "Arial", Arial, sans-serif;
+    font-weight: 400;
+    background-color: #F5FFFA;
+}
+
+/*General styles*/
+.clearfix:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.clear{
+    clear: both;
+}
+
+h1{
+    padding: 0.5em;
+    margin: 1em 1em 0em 1em;   
+}
+
+.contentwrapper{
+    min-width: 100vmin;
+    max-width: 100vmax;
+    padding: 0.5em;
+    margin: 0em 4em 1em 4em;
+}
+
+input{
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 0.5em;       
+}

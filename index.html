@@ -3,10 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <title>Responsive Web Design</title>
+        <link rel="stylesheet" type= "text/css" href="styles/stylesheet.css">
     </head>
     
     <body>
         <h1>Responsive Web Design and the Advantages</h1>
+        <section class="contentwrapper">
         
         <p>Responsive web design permits users to navigate through the website in a simple and straightforward way.</p>
         
@@ -14,15 +16,15 @@
         
         <form method="GET">
             
-            <label>First Name:
+            <label class="info">First Name:
                 <input type="text" name="first-name" required>
             </label>
             <br>
-            <label>Last Name: 
+            <label class="info">Last Name: 
                 <input type="text" name="last-name">
             </label>
             <br>
-            <label>E-mail:
+            <label class="info">E-mail:
                 <input type="email" name="mail" placeholder="someone@example.com" required>
             </label>
             <br>
@@ -68,7 +70,7 @@
                 </label>
             </fieldset>
             
-            <label>Please detail your questions bellow
+            <label class="area">Please detail your questions bellow
                 <textarea name="question" cols="50" rows="20" maxlength="40"></textarea>
             </label>
             <br>
@@ -76,5 +78,6 @@
             <input type="submit" value="Submit">
               
         </form>
+        </section>
     </body>
 </html>
