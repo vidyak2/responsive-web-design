@@ -8,61 +8,93 @@
     
     <body>
         <h1>Responsive Web Design and the Advantages</h1>
-        <section class="contentwrapper">
         
-        <p>Responsive web design permits users to navigate through the website in a simple and straightforward way.</p>
+        <!--Create Content wrapper section to facilitate CSS styling-->
+        <section class="contentwrapper">
+            
+            <p>Responsive web design permits users to navigate through the website in a simple way. This leads web developers to achieve their goal of letting the user access key information. Responsive Web Design encourages developing and designing websites while taking into consideration the behaviors of users, as well as the size of devices used.</p>
+            
+            <p>With the help of Responsive Web Design, the website created should adjust itself to the screen on which it is being displayed. The website becomes user-friendly on all devices, always using the same URL. In this case, only one website is maintained, making it easier to update on a regular basis.</p>
+            
+            <p></p>
         
         <h2>Contact Us</h2>
-        
+            
+            <!--Create Contact Us form-->
         <form method="GET">
             
+            <!--Type of input: text-->
             <label class="info">First Name:
                 <input type="text" name="first-name" required>
             </label>
             <br>
+            
             <label class="info">Last Name: 
                 <input type="text" name="last-name">
             </label>
             <br>
+            
+            <!--Type of input: e-mail-->
             <label class="info">E-mail:
                 <input type="email" name="mail" placeholder="someone@example.com" required>
             </label>
             <br>
             
+            <!--Type of input: radio button-->
             <fieldset>
                 <legend>
-                Do you have any questions about Responsive Web Design?
+                    Years of experience in Web Development: 
                 </legend>
-                
-                <label>Yes
-                    <input type="radio" name="anyquestions" value="yes">
+                <label>0-5 years
+                    <input type="radio" name="gender" value="female">
                 </label>
-                
-                <label>No
-                    <input type="radio" name="anyquestions" value="no">
+                <br>
+                <label>6-10 years
+                    <input type="radio" name="gender" value="male">
+                </label>
+                <br>
+                <label>11-15 years
+                    <input type="radio" name="gender" value="male">
+                </label>
+                <br>
+                <label>15+ years
+                    <input type="radio" name="gender" value="male">
                 </label>
             </fieldset>
             <br>
             
+            <!--Dropdown answer-->
+            <label>Do you have any questions about Responsive Web Design?
+                <select name="anyquestions">
+                    <option value="" selected>Select an option</option>
+                    <option value="no">No</option>
+                    <option value="yes">Yes</option>
+                </select>
+            </label>
+            
+            <!--Type of input: checkbox-->
             <fieldset>
                 <legend>
-                    Select the subjects concerning your questions.
+                    Select the subjects of your questions.
                 </legend>
                 
                 <label>
                     General Questions
                     <input type="checkbox" name="subject" value="general">
                 </label>
+                <br>
+                
+                <label>
+                    Importance of considering the diversity of the site visitors
+                    <input type="checkbox" name="subject" value="other">
+                </label>
+                <br>
                 
                 <label>
                     Other
                     <input type="checkbox" name="subject" value="other">
                 </label>
-                
-                <label>
-                    Other
-                    <input type="checkbox" name="subject" value="other">
-                </label>
+                <br>
                 
                 <label>
                     Other
@@ -70,14 +102,22 @@
                 </label>
             </fieldset>
             
+            <!--Text area-->
             <label class="area">Please detail your questions bellow
+                <br>
                 <textarea name="question" cols="50" rows="20" maxlength="40"></textarea>
             </label>
             <br>
             
+            <!--Type of input: range-->
+            <p>Questions will be answered according to their priority, within a 48 hours time frame. Please select the urgency of these questions.</p>
+            <input type="range" min="0" max="10" value="5" name="range">
+            <br>
+            
+            <!--Type of input: submit buttom-->
             <input type="submit" value="Submit">
               
-        </form>
+            </form>
         </section>
     </body>
 </html>

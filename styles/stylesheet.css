@@ -28,8 +28,19 @@ h1{
     margin: 0em 4em 1em 4em;
 }
 
+/*Input styles*/
 input{
     padding: 0.5em;
     margin: 0.5em;
     border-radius: 0.5em;       
+}
+
+fieldset{
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 0.5em;   
+}
+
+textarea{
+    border-radius: 0.5em; 
 }
