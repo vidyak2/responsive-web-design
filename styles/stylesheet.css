@@ -28,6 +28,12 @@ h1{
     margin: 0em 4em 1em 4em;
 }
 
+p{
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent: 2em;
+}
+
 /*Input styles*/
 input{
     padding: 0.5em;
@@ -43,4 +49,9 @@ fieldset{
 
 textarea{
     border-radius: 0.5em; 
+}
+
+p.range{
+    text-indent: 0em;
+    line-height: 1em;
 }
