@@ -1,131 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <title>Responsive Web Design</title>
-        <link rel="stylesheet" type= "text/css" href="styles/stylesheet.css">
-    </head>
-    
-    <body>
-        <h1>Responsive Web Design and the Advantages</h1>
-        
-        <!--Create Content wrapper section to facilitate CSS styling-->
-        <section class="contentwrapper">
-            
-            <p>In today's environment, consumers use various devices, such as iPhones, android phones, plus size phones, iPads, tablets, as well as laptops and desktops. Each one of these devices has a different screen and browser size, since several users do not maximize their browser. This increasing number of screen sizes makes it difficult for web developers to create a website that fits all devices. Responsive Web Design encourages web developers to take into consideration the users of the website, as well as the varying size of devices, leading to a pleasant navigation. </p>
-            
-            <p>Images and layouts can automatically adapt to the screen size, allowing an easy navigation for the user. Elements can also be arranged differently, depending on the screen size. Some elements may even be hidden, leaving only the important information on the main page. This reduces clutter when opening the website on a phone, for example.</p>
-            
-            <p>With the help of Responsive Web Design, one single URL is used across all devices and the need to maintain several websites disappears. The website will adjust itself to the size of the screen, leading it to be user-friendly. </p>
-            
-            <p>It becomes important for all web developers to implement Responsive Web Design in their websites. For further information or any other questions, contact us.</p>
-        
-        <h2>Contact Us</h2>
-            
-            <!--Create Contact Us form-->
-        <form method="GET">
-            
-            <!--Type of input: text-->
-            <label class="info">First Name:
+  <meta charset="UTF-8">
+  <title>Responsive Web Design</title>
+  <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+</head>
+
+<body>
+  <h1>Responsive Web Design and the Advantages</h1>
+
+  <!--Create Content wrapper section to facilitate CSS styling-->
+  <section class="contentwrapper">
+
+    <p>In today's environment, consumers use various devices, such as iPhones, android phones, plus size phones, iPads, tablets, as well as laptops and desktops. Each one of these devices has a different screen and browser size, since several users do not maximize their browser. This increasing number of screen sizes makes it difficult for web developers to create a website that fits all devices. Responsive Web Design encourages web developers to take into consideration the users of the website, as well as the varying size of devices, leading to a pleasant navigation. </p>
+
+    <p>Images and layouts can automatically adapt to the screen size, allowing an easy navigation for the user. Elements can also be arranged differently, depending on the screen size. Some elements may even be hidden, leaving only the important information on the main page. This reduces clutter when opening the website on a phone, for example.</p>
+
+    <p>With the help of Responsive Web Design, one single URL is used across all devices and the need to maintain several websites disappears. The website will adjust itself to the size of the screen, leading it to be user-friendly. </p>
+
+    <p>It becomes important for all web developers to implement Responsive Web Design in their websites. For further information or any other questions, contact us.</p>
+
+    <h2>Contact Us</h2>
+
+    <!--Create Contact Us form-->
+    <form method="GET">
+
+      <!--Type of input: text-->
+      <label class="info">First Name:
                 <input type="text" name="first-name" required>
             </label>
-            <br>
-            
-            <label class="info">Last Name: 
+      <br>
+
+      <label class="info">Last Name: 
                 <input type="text" name="last-name">
             </label>
-            <br>
-            
-            <!--Type of input: e-mail-->
-            <label class="info">E-mail:
+      <br>
+
+      <!--Type of input: e-mail-->
+      <label class="info">E-mail:
                 <input type="email" name="mail" placeholder="someone@example.com" required>
             </label>
-            <br>
-            
-            <!--Type of input: radio button-->
-            <fieldset>
-                <legend>
-                    Years of experience in Web Development: 
-                </legend>
-                <label>0-5 years
+      <br>
+
+      <!--Type of input: radio button-->
+      <fieldset>
+        <legend>
+          Years of experience in Web Development:
+        </legend>
+        <label>0-5 years
                     <input type="radio" name="gender" value="female">
                 </label>
-                <br>
-                <label>6-10 years
+        <br>
+        <label>6-10 years
                     <input type="radio" name="gender" value="male">
                 </label>
-                <br>
-                <label>11-15 years
+        <br>
+        <label>11-15 years
                     <input type="radio" name="gender" value="male">
                 </label>
-                <br>
-                <label>15+ years
+        <br>
+        <label>15+ years
                     <input type="radio" name="gender" value="male">
                 </label>
-            </fieldset>
-            <br>
-            
-            <!--Dropdown answer-->
-            <label>Do you have any questions about Responsive Web Design?
+      </fieldset>
+      <br>
+
+      <!--Dropdown answer-->
+      <label>Do you have any questions about Responsive Web Design?
                 <select name="anyquestions">
                     <option value="" selected>Select an option</option>
                     <option value="no">No</option>
                     <option value="yes">Yes</option>
                 </select>
             </label>
-            
-            <!--Type of input: checkbox-->
-            <fieldset>
-                <legend>
-                    Select the subjects of your questions.
-                </legend>
-                
-                <label>
+
+      <!--Type of input: checkbox-->
+      <fieldset>
+        <legend>
+          Select the subjects of your questions.
+        </legend>
+
+        <label>
                     General Questions
                     <input type="checkbox" name="subject" value="general">
                 </label>
-                <br>
-                
-                <label>
+        <br>
+
+        <label>
                     Various devices and screen sizes
                     <input type="checkbox" name="subject" value="devices">
                 </label>
-                <br>
-                
-                <label>
+        <br>
+
+        <label>
                     Image and element layouts
                     <input type="checkbox" name="subject" value="layouts">
                 </label>
-                <br>
-                
-                <label>
+        <br>
+
+        <label>
                     Single URL website
                     <input type="checkbox" name="subject" value="url">
                 </label>
-                <br>
-                
-                <label>
+        <br>
+
+        <label>
                     Other
                     <input type="checkbox" name="subject" value="other">
                 </label>
-            </fieldset>
-            
-            <!--Text area-->
-            <label class="area">Please detail your questions bellow
+      </fieldset>
+
+      <!--Text area-->
+      <label class="area">Please detail your questions bellow
                 <br>
                 <textarea name="question" cols="50" rows="20" maxlength="40"></textarea>
             </label>
-            <br>
-            
-            <!--Type of input: range-->
-            <p class="range">Questions will be answered according to their priority, within a 48 hours time frame. Please select the urgency of these questions.</p>
-            <input type="range" min="0" max="10" value="5" name="range">
-            <br>
-            
-            <!--Type of input: submit buttom-->
-            <input type="submit" value="Submit">
-              
-            </form>
-        </section>
-    </body>
+      <br>
+
+      <!--Type of input: range-->
+      <p class="range">Questions will be answered according to their priority, within a 48 hours time frame. Please select the urgency of these questions.</p>
+      <input type="range" min="0" max="10" value="5" name="range">
+      <br>
+
+      <!--Type of input: submit buttom-->
+      <input type="submit" value="Submit">
+
+    </form>
+  </section>
+
+  <footer>
+    <article class="footer">
+      <p class="foot">&copy; 2018 || Vidya Krishnan</p>
+      <p class="foot">Last modified on <time datetime="2018-01-24">January 24 2018</time></p>
+    </article>
+  </footer>
+
+</body>
 </html>

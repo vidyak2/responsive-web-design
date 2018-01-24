@@ -1,57 +1,66 @@
 /*Body styles*/
-body{
-    font-family: "Arial", Arial, sans-serif;
-    font-weight: 400;
-    background-color: #F5FFFA;
+
+body {
+  font-family: "Arial", Arial, sans-serif;
+  font-weight: 400;
+  background-color: #F5FFFA;
 }
 
 /*General styles*/
-.clearfix:after{
-    content:"";
-    display: block;
-    clear: both;
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
-.clear{
-    clear: both;
+.clear {
+  clear: both;
 }
 
-h1{
-    padding: 0.5em;
-    margin: 1em 1em 0em 1em;   
+h1 {
+  padding: 0.5em;
+  margin: 1em 1em 0em 1em;
 }
 
-.contentwrapper{
-    min-width: 100vmin;
-    max-width: 100vmax;
-    padding: 0.5em;
-    margin: 0em 4em 1em 4em;
+.contentwrapper {
+  min-width: 100vmin;
+  max-width: 100vmax;
+  padding: 0.5em;
+  margin: 0em 4em 1em 4em;
 }
 
-p{
-    line-height: 1.5em;
-    text-align: justify;
-    text-indent: 2em;
+p {
+  line-height: 1.5em;
+  text-align: justify;
+  text-indent: 2em;
 }
 
 /*Input styles*/
-input{
-    padding: 0.5em;
-    margin: 0.5em;
-    border-radius: 0.5em;       
+
+input {
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 0.5em;
 }
 
-fieldset{
-    padding: 0.5em;
-    margin: 0.5em;
-    border-radius: 0.5em;   
+fieldset {
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 0.5em;
 }
 
-textarea{
-    border-radius: 0.5em; 
+textarea {
+  border-radius: 0.5em;
 }
 
-p.range{
-    text-indent: 0em;
-    line-height: 1em;
+p.range {
+  text-indent: 0em;
+  line-height: 1em;
+}
+
+.foot {
+  text-align: center;
+  font-size: 0.65em;
+  line-height: 0.5em;
 }
